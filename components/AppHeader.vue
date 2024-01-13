@@ -53,8 +53,8 @@ const navLinks = [
                     </ul>
                 </div>
 
-                <div class="flex items-center bg-inherit gap-1 lg:gap-3 min-w-max">
-                    <ElementsThemeSwitcher />
+                 <!-- <div class="flex items-center bg-inherit gap-1 lg:gap-3 min-w-max">
+                    <ElementsThemeSwitcher /> -->
                     <div class="hidden lg:flex lg:items-center gap-4">
                         <AtomsLinkBtn href="#" variant="secondary">
                             Signin
@@ -109,7 +109,7 @@ const navLinks = [
                                 :class="navIsOpen ? '-translate-y-1.5 -rotate-[40deg] scale-x-100 ' : ' scale-x-75 origin-left'"></span>
                         </button>
                     </div>
-                </div>
+               <!-- </div> --> 
             </nav>
         </AtomsContainer>
     </header>
